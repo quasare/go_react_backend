@@ -8,7 +8,6 @@ import (
     "net/http"
 
     "github.com/gorilla/mux"
-    "github.com/quasare/blog/middleware"
 )
 
 // Article - Our struct for all articles
