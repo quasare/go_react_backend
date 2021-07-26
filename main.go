@@ -7,7 +7,8 @@ import (
     "io/ioutil"
     "net/http"
 
-    "github.com/gorilla/mux"
+   _ "github.com/gorilla/mux"
+    "github.com/quasare/blog/models/users"
 )
 
 // Article - Our struct for all articles
